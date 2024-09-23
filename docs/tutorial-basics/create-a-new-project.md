@@ -63,6 +63,8 @@ The `nodestream.yaml` file is the configuration file for your project. By defaul
 ```
 scopes:
   default:
+    targets:
+      - my-db
     pipelines:
     - pipelines/sample.yaml
 
